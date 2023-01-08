@@ -1,0 +1,140 @@
+/* Base */
+body {
+    /* Background settings */
+    background-color: #1F1F1F;
+    /* background-color: #FFFE6; */
+    /* Text settings */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Index header */
+body .index h1 {
+    /* Text settings */
+    text-align-last: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: cadetblue;
+    /* Border settings */
+    border: 5pt;
+    border-style: ridge;
+    border-color: blue;
+
+}
+/* Indesx list */
+body .index_list li ul mod_lnk {
+    position: relative;
+    top: -7px;
+    left: 40%;
+    /* Text settings */
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    /* List settings */
+    list-style: none;
+}
+body .index_list {
+    /* Border */
+    border: 5pt;
+    border-style: dashed;
+    border-color: limegreen;
+    /* Box align */
+    position: relative;
+    top: 40pt;
+}
+/* Header */
+body .header .title h1 {
+    /* Background settings */
+    background-color: #1F1F1F;
+    /* Text settings */
+    text-align-last: center;
+    text-shadow: #FC0 1px 0px 10px;
+    color: cadetblue;
+    /* Border settings */
+    border: 5pt;
+    border-style: ridge;
+    border-color: blue;
+}
+body .shader p {
+    color: red;
+}
+/* Footer */
+body .footer .author {
+    /* Border */
+    border: 5pt;
+    border-style: dotted;
+    border-color: burlywood;
+    /* Text */
+    text-align: center;
+    font-size: larger;
+    color: #FFFFE6;
+}
+body .footer .author p a {
+    /* Text */
+    text-align: center;
+    color: #FFFFE6;
+}
+body .footer .communication {
+    /* Border */
+    border: 5pt;
+    border-style: dotted;
+    border-color: burlywood;
+    /* Text */
+    text-align: center;
+    font-size: larger;
+    color: #FFFFE6;
+}
+body .footer .communication p a {
+    /* Text */
+    text-align: center;
+    color: #FFFFE6;
+}
+/* Slideshow */
+body .slideshow .slideshow_slide {
+    /* Align */
+    text-align: center;
+    /* Text */
+    font-size: larger;
+    color: cornflowerblue;
+}
+body .slideshow .slideshow_slide .text p a {
+    /* Color */
+    background-color: #333333;
+    color: cornflowerblue;
+    /* Box align */
+    width: 100pt;
+    position: relative;
+    left: 0%;
+}
+body .slideshow .slideshow_slide .numbertext {
+    /* Color */
+    background-color: #333333;
+    /* Box align */
+    width: 50pt;
+    position: relative;
+    left: 45%;
+}
+body .slideshow .slideshow_slide {
+    display: none;
+}
+/* Buttons */
+body .slideshow .prev, body .slideshow .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+body .slideshow .next {
+  left: 72.1%;
+  border-radius: 3px 0 0 3px;
+}
+body .slideshow .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
