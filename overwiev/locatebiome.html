@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+    <script src="constrain.js"></script>
+    <title>locatebiome</title>
+</head>
+
+<body>
+    <div class="header">
+    	<div class="title">
+        	<h1>
+    	        /locatebiome
+	        </h1>
+    	</div>
+    </div>
+    <!--Short info section-->
+    <short-info class="short">
+    	<h6>/locatebiome</h6>
+    	<div class="underheader">
+	    	<hr>
+	    </div>
+        <hr>
+        <p>
+            First added in: &ensp;&nbsp; release-2.0-b5
+        </p>
+        <hr>
+    	<p>
+    		What version backport: &ensp;&nbsp; 1.16
+    	</p>
+    	<hr>
+    	<h6>Subcommands</h6>
+    	<div class="underheader">
+	    	<hr>
+	    </div>
+        <p>
+            list - show list of all biome names
+        </p>
+        <p>
+            (biome name) - locate biome (biome name),
+            biome name can be obtained by list
+        </p>
+        <h6>Config entries</h6>
+        <div class="underheader">
+            <hr>
+        </div>
+        <p>
+            commands -> "Locatebiome search radius", [integer]
+            Adjust search radius
+        </p>
+    </short-info>
+    <!--Text-->
+    <div class="text">
+    	<h2>About command</h2>
+        <p>
+            Locate a given biome and give output in format x ~ z. Search radius can be adjusted in config file. Search is done by Forge worker.
+        </p>
+        <p>
+            Command use raw biome registry name. But it accept modded biomes (if you use big generator mod that has many biomes "/locatebiome list" can become useless because chat in Minecraft has limited space). Also it use names without spaces because space is argument separator. Space is simply removed from a name when biome name is retrieved from registry and it convert biome name to UppercaseCammelFont.
+        </p>
+        <p>
+            Note: RoofedForest = Dark oak forest (strange registry name in Minecraft) ;)
+        </p>
+    </div>
+    <script type="text/javascript">
+    	constrain_height("short", "text");
+    </script>
+    <!--Back to the main page-->
+    <div class="return">
+        <p><a href="../SimpleBackport.html">Return</a></p>
+    </div>
+    <!--Footer of the page-->
+    <div class="footer">
+        <div class="author">
+            <p>Author - WolodiaM</p>
+            <p><a href="https://github.com/WolodiaM-moddev">WolodiaM-moddev at GitHub and Modrinth</a></p>
+        </div>
+        <div class="communication">
+            <p><a href="mailto:wolodiam-moddev@outlook.com">wolodiam-moddev@outlook.com</a></p>
+            <p><a href="https://github.com/WolodiaM-moddev/SimpleBackport/issues">GitHub issues</a></p>
+            <p><a href="https://github.com/WolodiaM-moddev/SimpleBackport/pulls">GitHub pullrequests</a></p>
+            <p><a href="https://github.com/WolodiaM-moddev/SimpleBackport/discussions">GitHub discussions</a></p>
+            <p><a href="https://www.curseforge.com/minecraft/mc-mods/simplebackport">CurseForge page</a></p>
+            <p><a href="https://modrinth.com/mod/simplebackport">Modrinth page</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -17,12 +17,13 @@ function showSlides() {
   slides[idx-1].style.display = "block";
 }
 // All data for craft slideshows
-let craft_data = [{id: "c4", idx: 0},
+let craft_data = [{id: "c1", idx: 0},
+                  {id: "c2", idx: 0},
+                  {id: "c3", idx: 0},
+                  {id: "c4", idx: 0},
                   {id: "c5", idx: 0},
                   {id: "c6", idx: 0},
                   {id: "c7", idx: 0},
-                  {id: "c8", idx: 0},
-                  {id: "c9", idx: 0},
                   {id: "c_out", idx: 0}];
 // Show craft menu
 function showCraft()

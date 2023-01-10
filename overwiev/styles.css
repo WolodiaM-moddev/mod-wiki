@@ -19,7 +19,24 @@ body .header .title h1 {
     border-style: ridge;
     border-color: blue;
 }
+/* Return */
+body .return p {
+    /* Background settings */
+    background-color: #1F1F1F;
+    /* Text settings */
+    text-align-last: center;
+    text-shadow: #FC0 1px 0px 10px;
+    color: cadetblue;
+    /* Border settings */
+    border: 5pt;
+    border-style: ridge;
+    border-color: blue;
+    /* Font */
+    font-size: xx-large;
+}
 /* Footer */
+body .footer {
+}
 body .footer .author {
     /* Border */
     border: 5pt;
@@ -50,16 +67,44 @@ body .footer .communication p a {
     text-align: center;
     color: #FFFFE6;
 }
+/* Text */
+body .text {
+    color: #FFEEE6;
+    position: relative;
+    display: block;
+    padding: 10px;
+    width: 70%;
+    height: auto;
+    left: 2%;
+}
+body .text h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    color: aquamarine;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+body .text p {
+    font-size: larger;
+    position: relative;
+    left: -25%;
+    width: 120%;
+    text-align: left;
+}
 /* Short */
 body short-info {
     /* Align and size */
     position: relative;
     overflow: hidden;
+    float: left;
     padding: 10px;
     width: 256px;
     height: auto;
     left: 75%;
     display: inline-block;
+    background-color: #000000;
     /* Border */
     border-style: solid;
     border-color: blue;
@@ -67,9 +112,20 @@ body short-info {
 body short-info hr {
     color: blue;
 }
+body short-info .underheader hr {
+    color: red;
+    border: none;
+    border-top: dotted;
+}
 body short-info p {
     color: olivedrab;
     font-size: larger;
+}
+body short-info h6 {
+    text-align-last: center;
+    font-size: x-large;
+    margin: 0px;
+    color: green;
 }
 body short-info .slideshow .slideshow_slide {
     /* Align and size */
@@ -81,11 +137,216 @@ body short-info .slideshow .slideshow_slide {
     border-style: ridge;
     border-color: indigo;
 }
+body short-info .slideshow .slideshow_slide_1 {
+    /* Align and size */
+    position: relative;
+    height: 64px;
+    width: 64px;
+    left: 96px;
+    display: block;
+    /* Border */
+    border-style: ridge;
+    border-color: indigo;
+}
 body short-info .slideshow .slideshow_slide img {
+    /* Image size */
+    height: 64px;
+    width: 64px;
+}
+body short-info .slideshow .slideshow_slide_1 img {
     /* Image size */
     height: 64px;
     width: 64px;
 }
 body short-info .slideshow .slideshow_slide {
     display: none;
+}
+/* Craft */
+body craft {
+    position: relative;
+    display: block;
+    width: 280px;
+    height: 144px;
+    background-color: whitesmoke;
+    left: 35%;
+    color: black;
+}
+body craft in-1 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 20px;
+    left: 84px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft img {
+    /* Image size */
+    height: 32px;
+    width: 32px;
+}
+body craft in-2 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 20px;
+    left: 120px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-3 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 20px;
+    left: 156px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-4 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 56px;
+    left: 84px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-5 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 56px;
+    left: 120px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-6 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 56px;
+    left: 156px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-7 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 92px;
+    left: 84px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-8 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 92px;
+    left: 120px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft in-9 {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 92px;
+    left: 156px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
+body craft out {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 56px;
+    left: 228px;
+    width: 32px;
+    height: 32px;
+    background-color: #BFBFBF;
+    border-color: black;
+    border-style: solid;
+}
+body craft out-cnt {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 80px;
+    left: 240px;
+}
+body craft out-cnt p {
+    color: black;
+    font-size: x-large;
+}
+body craft eq {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 56px;
+    left: 201px;
+    width: 32px;
+    height: 32px;
+    font-size: xx-large;
+}
+body craft desc {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    float: right;
+    top: 16px;
+    left: 16px;
+    width: 64px;
+    height: 112px;
+    font-size: larger;
+    text-align: center;
 }

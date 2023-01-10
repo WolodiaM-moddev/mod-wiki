@@ -14,7 +14,7 @@ function slideController()
 {
   idx++;
   showSlides();
-  setTimeout(slideController, 8000);
+  setTimeout(slideController, 4000);
 }
 // Slideshow draw
 function showSlides() {

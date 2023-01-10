@@ -56,7 +56,13 @@ body .header .title h1 {
 body .shader p {
     color: red;
 }
+body .shader p a {
+    color: red;
+}
 /* Footer */
+body .footer {
+    margin: 10px;
+}
 body .footer .author {
     /* Border */
     border: 5pt;
@@ -137,4 +143,48 @@ body .slideshow .next {
 }
 body .slideshow .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+/* List */
+body .lists {
+    border-style: groove;
+    border-color: seagreen;
+}
+body list {
+
+}
+body list h4 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+body list elem {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1em;
+    left: 9%;
+    width: 80%;
+    display: inline-block;
+    border-style: dashed;
+    border-color: seagreen;
+}
+body list elem name p a {
+    color: oldlace;
+    font-size: xx-large;
+    margin: 11px;
+}
+body list elem picture {
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    left: 87%;
+    height: 64px;
+    width: 94px;
+    border-left-style: dashed;
+    border-color: seagreen;
+}
+body list elem picture a img {
+    position: relative;
+    left: 30px;
+    width: 64px;
+    height: 64px;
 }
